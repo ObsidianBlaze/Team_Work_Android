@@ -15,8 +15,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".AddPost"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden" />
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
             android:name=".ImageComment"
             android:label="@string/title_activity_image_comment"
@@ -41,6 +40,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
